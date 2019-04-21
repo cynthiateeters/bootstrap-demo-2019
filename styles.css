@@ -204,4 +204,8 @@ header.masthead h2 {
 	header.masthead h2 {
 		font-size: 2.5em;
 	}
+
+	#mainNav .navbar-brand {
+		font-size: 1.75em;
+	}
 }
