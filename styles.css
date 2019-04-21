@@ -29,7 +29,7 @@ a.skip:hover {
 }
 
 p {
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	line-height: 1.7;
 }
 
@@ -196,6 +196,13 @@ header.masthead h1 {
 
 header.masthead h2 {
 	font-size: 2rem;
+}
+
+@media screen and (min-width: 48rem) {
+
+	.lk-bio p {
+		font-size: 1rem;
+	}
 }
 
 @media (min-width: 992px) {
