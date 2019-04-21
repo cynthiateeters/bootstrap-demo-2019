@@ -137,7 +137,7 @@
 						</p>
 						<div class="signature">
 							<p>Sincerely,&nbsp;&nbsp;&nbsp;<br>
-							Lyan Kent&nbsp;<i class="fas fa-feather-alt"></i>
+								Lyan Kent&nbsp;<i class="fas fa-feather-alt"></i>
 							</p>
 						</div>
 					</div>
@@ -287,18 +287,22 @@
 							<br><br>
 							<fieldset>
 								<legend>Would you like a reply from Lyan?</legend>
-								<input type="radio" id="reply-yes" name="reply" value="yes" checked>
-								<label for="reply-yes">Yes</label>
-								<br><br>
-								<input type="radio" id="reply-no" name="reply" value="no">
-								<label for="reply-no">No</label>
+
+								<label for="reply-yes" class="container">Yes
+									<input id="reply-yes" type="radio" checked="checked" name="reply" value="yes">
+									<span class="checkmark"></span>
+								</label><br><br>
+								<label for="reply-no" class="container">No
+									<input id="reply-no" type="radio" name="reply" value="no">
+									<span class="checkmark"></span>
+								</label>
 							</fieldset>
 							<br><br>
 							<label for="message">Message</label>
 							<br>
 							<textarea id="message" name="message"></textarea>
 							<br><br>
-							<button type="button" class="btn btn-primary" type="submit">Send Message</button>
+							<button type="button" class="btn btn-primary form-submit" type="submit">Send Message</button>
 						</fieldset>
 					</form>
 				</div>
