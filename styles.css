@@ -79,6 +79,7 @@ legend {
 input,
 textarea {
 	width: 90%;
+	outline: .1px gray solid;
 }
 
 
@@ -88,6 +89,7 @@ textarea:focus {
 	border-width: 5px;
 	border-style: dotted;
 	outline: none;
+	
 }
 
 input[type=checkbox],
