@@ -54,6 +54,10 @@ p {
 	font-size: 3rem;
 }
 
+.story-body {
+	max-width: 68ch;
+}
+
 fieldset {
 	border: 1px solid #ddd !important;
 	margin: 0;
