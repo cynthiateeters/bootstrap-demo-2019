@@ -39,6 +39,15 @@ input[type=radio] {
 	width: 1rem;
 }
 
+.btn-social {
+    display: flex;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 3rem;
+    line-height: 2rem;
+    text-align: center;
+}
 header.masthead h1 {
 	letter-spacing: 1rem;
 }
