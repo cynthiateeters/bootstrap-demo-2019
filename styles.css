@@ -29,6 +29,22 @@ p {
 	line-height: 1.7;
 }
 
+
+.signature {
+	display: grid;
+	grid-template-columns: 1fr 13ch;
+}
+
+.signature p {
+	grid-column: 2/3;
+}
+
+
+.fa-feather-alt:before {
+    vertical-align: sub;
+}
+
+
 .story h2 {
 	font-size: 3rem;
 }
